@@ -1,0 +1,1015 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
+
+ # Este programa fue construido para i386-pc-mingw32
+ 
+
+# Base de datos del Make, mostrada en Mon Dec 22 13:29:33 2025
+
+# Variables
+
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# autom�tica/o
+?F = $(notdir $?)
+# makefile (de `makefile', l�nea 18):
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# entorno
+CARBON_MEM_DISABLE = 1
+# entorno
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile (de `makefile', l�nea 17):
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile
+MAKEFLAGS = Rrqp
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/Snake_Vr3_Final
+# por defecto
+SHELL := sh.exe
+# makefile (de `makefile', l�nea 21):
+RM = rm
+# entorno
+WINDIR = C:\Windows
+# entorno
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"es-es","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\alway\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+# makefile (de `makefile', l�nea 7):
+CFLAGS = -std=c11 -Wall -Isrc/include
+# entorno
+ONEDRIVE = C:\Users\alway\OneDrive
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (de `Snake.d', l�nea 1):
+MAKEFILE_LIST :=  makefile main.d Snake.d
+# entorno
+TMP = C:\Users\alway\AppData\Local\Temp
+# makefile (de `makefile', l�nea 9):
+CXXFLAGS = $(CFLAGS)
+# entorno
+PROGRAMW6432 = C:\Program Files
+# makefile (de `makefile', l�nea 24):
+DEL = del
+# entorno
+PROGRAMDATA = C:\ProgramData
+# entorno
+VSCODE_CWD = C:\Users\alway\AppData\Local\Programs\Microsoft VS Code
+# entorno
+PATH = C:\app\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\app\alway\dbhomeXE\bin;C:\app\alway\product\21c\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\alway\Downloads\mingw-w64-v11.0.0.zip\mingw-w64-v11.0.0\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\TDM-GCC\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;D:\SDL3-3.2.28\x86_64-w64-mingw32\bin;D:\ttf\SDL3_ttf-3.2.2\x86_64-w64-mingw32\bin;D:\img\SDL3_image-3.2.4\x86_64-w64-mingw32\bin;C:\TDM-GCC\bin;C:\Program Files (x86)\GnuWin64\bin;D:\SDL3-3.2.28\x86_64-w64-mingw32\bin;C:\Users\alway\AppData\Roaming\npm;C:\Users\alway\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alway\AppData\Local\Programs\Antigravity\bin;D:\ttf\SDL3_ttf-3.2.2\x86_64-w64-mingw32\bin;D:\img\SDL3_image-3.2.4\x86_64-w64-mingw32\bin;C:\Users\alway\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;
+# entorno
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# entorno
+ZES_ENABLE_SYSMAN = 1
+# makefile (de `makefile', l�nea 19):
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+USERPROFILE = C:\Users\alway
+# entorno
+ALLUSERSPROFILE = C:\ProgramData
+# entorno
+WXWIN = C:\Users\alway\Downloads\wxWidgets-3.3.1.zip
+# entorno
+NUMBER_OF_PROCESSORS = 22
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# makefile (de `makefile', l�nea 8):
+LDFLAGS = -Llib -lSDL3 -lSDL3_ttf -lSDL3_image 
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# makefile (de `makefile', l�nea 13):
+SRCDIR = src
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_37152_XDAGYXFKAMEWURPY
+# entorno
+COMPUTERNAME = ABADOUR
+# entorno
+PROGRAMFILES = C:\Program Files (x86)
+# entorno
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# entorno
+USERNAME = alway
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+VSCODE_CODE_CACHE_PATH = C:\Users\alway\AppData\Roaming\Code\CachedData\994fd12f8d3a5aa16f17d42c041e5809167e845a
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (de `makefile', l�nea 22):
+DELOBJ = $(OBJ)
+# entorno
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# entorno
+LOGONSERVER = \\ABADOUR
+# entorno
+ONEDRIVECONSUMER = C:\Users\alway\OneDrive
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = ABADOUR
+# entorno
+MAKELEVEL := 0
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# makefile (de `makefile', l�nea 11):
+APPNAME = Snake_Vr3
+# makefile (de `makefile', l�nea 6):
+CC = gcc
+# entorno
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# por defecto
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# entorno
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# entorno
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# entorno
+LOCALAPPDATA = C:\Users\alway\AppData\Local
+# entorno
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# por defecto
+MAKE_COMMAND := make.exe
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# por defecto
+.VARIABLES := 
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\e001e464-1.107.1-main-sock
+# makefile (de `makefile', l�nea 12):
+EXT = .c
+# entorno
+HOMEPATH = \Users\alway
+# entorno
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# entorno
+PROMPT = $P$G
+# entorno
+MFLAGS = -Rrqp
+# autom�tica/o
+*D = $(patsubst %/,%,$(dir $*))
+# entorno
+SYSTEMROOT = C:\Windows
+# autom�tica/o
++D = $(patsubst %/,%,$(dir $+))
+# autom�tica/o
++F = $(notdir $+)
+# entorno
+APPDATA = C:\Users\alway\AppData\Roaming
+# entorno
+TEMP = C:\Users\alway\AppData\Local\Temp
+# entorno
+COMSPEC = C:\Windows\system32\cmd.exe
+# por defecto
+MAKEFILES := 
+# autom�tica/o
+<F = $(notdir $<)
+# makefile (de `makefile', l�nea 14):
+OBJDIR = obj
+# entorno
+LC_ALL = C
+# makefile (de `makefile', l�nea 26):
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# autom�tica/o
+^F = $(notdir $^)
+# por defecto
+SUFFIXES := 
+# entorno
+SYSTEMDRIVE = C:
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = aa04
+# entorno
+EFC_11016_1592913036 = 1
+# makefile (de `makefile', l�nea 25):
+EXE = .exe
+# entorno
+LANG = C
+# entorno
+PROCESSOR_LEVEL = 6
+# entorno
+VSCODE_PID = 371 
+52
+# entorno
+USERDOMAIN_ROAMINGPROFILE = ABADOUR
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=103/1024=10%, Rehash=0, Colisiones=19/155=12%
+
+# Valores de variables espec�ficas al patr�n
+
+# No hay valores de variables espec�ficas al patr�n.
+
+# Directorios
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (llave C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1759616847): 6 archivos, no imposibilidades.
+# C:\Program Files\Docker\Docker\resources\bin (llave C:/Program Files/Docker/Docker/resources/bin, mtime 1761054650): 12 archivos, no imposibilidades.
+# D:\ttf\SDL3_ttf-3.2.2\x86_64-w64-mingw32\bin (llave D:/ttf/SDL3_ttf-3.2.2/x86_64-w64-mingw32/bin, mtime 1765489459): 3 archivos, no imposibilidades.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (llave C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1763232534): 32 archivos, no imposibilidades.
+# C:\Windows\System32\Wbem (llave C:/Windows/System32/Wbem, mtime 1765037754): 144 archivos, no imposibilidades.
+# . (llave d:/Snake_Vr3_Final, mtime 1766192693): 17 archivos, no imposibilidades.
+# C:\Program Files\nodejs\ (llave C:/Program Files/nodejs/, mtime 1762294433): 14 archivos, no imposibilidades.
+# C:\Program Files\dotnet\ (llave C:/Program Files/dotnet/, mtime 1759783167): 12 archivos, no imposibilidades.
+# C:\app\dbhomeXE\bin (llave C:/app/dbhomeXE/bin, mtime 1763733150): 686 archivos, no imposibilidades.
+# C:\Windows\System32\OpenSSH\: podr�a no estar establecido.
+# C:\Windows (llave C:/Windows, mtime 1766311312): 123 archivos, no imposibilidades.
+# C:\Program Files (x86)\GnuWin64\bin (llave C:/Program Files (x86)/GnuWin64/bin, mtime 1758567501): 5 archivos, no imposibilidades.
+# C:\Users\alway\AppData\Local\Programs\Antigravity\bin (llave C:/Users/alway/AppData/Local/Programs/Antigravity/bin, mtime 1764364538): 4 archivos, no imposibilidades.
+# C:\TDM-GCC\bin (llave C:/TDM-GCC/bin, mtime 1760613537): 58 archivos, no imposibilidades.
+# C:\Users\alway\AppData\Local\Programs\Microsoft VS Code\bin (llave C:/Users/alway/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1766060478): 5 archivos, no imposibilidades.
+# C:\app\alway\product\21c\dbhomeXE\bin (llave C:/app/alway/product/21c/dbhomeXE/bin, mtime 1763732897): 5 archivos, no imposibilidades.
+# C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (llave C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, mtime 1759785237): 445 archivos, no imposibilidades.
+# src (llave d:/Snake_Vr3_Final/src, mtime 1765582658): 5 archivos, no imposibilidades.
+# C:\Users\alway\AppData\Roaming\npm: podr�a no estar establecido.
+# D:\img\SDL3_image-3.2.4\x86_64-w64-mingw32\bin (llave D:/img/SDL3_image-3.2.4/x86_64-w64-mingw32/bin, mtime 1765490685): 3 archivos, no imposibilidades.
+# C:\Windows\system32 (llave C:/Windows/system32, mtime 1766169953): 2965 archivos, no imposibilidades.
+# C:\Users\alway\AppData\Local\Programs\MiKTeX\miktex\bin\x64\ (llave C:/Users/alway/AppData/Local/Programs/MiKTeX/miktex/bin/x64/, mtime 1765492931): 743 archivos, no imposibilidades.
+# D:\SDL3-3.2.28\x86_64-w64-mingw32\bin (llave D:/SDL3-3.2.28/x86_64-w64-mingw32/bin, mtime 1765488323): 3 archivos, no imposibilidades.
+# C:\Users\alway\Downloads\mingw-w64-v11.0.0.zip\mingw-w64-v11.0.0\bin: podr�a no estar establecido.
+# C:\app\alway\dbhomeXE\bin (llave C:/app/alway/dbhomeXE/bin, mtime 1761835556): 5 archivos, no imposibilidades.
+
+# 5295 archivos, no imposibilidades en 25 directorios.
+
+# Reglas impl�citas.
+
+%.d: src/%.c
+#  comandos para ejecutar (de `makefile', linea 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+	
+
+obj/%.o: src/%.c
+#  comandos para ejecutar (de `makefile', linea 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+	
+
+# 2 reglas impl�citas, 0 (0,0%) terminal.
+
+# Archivos
+
+# No es un objetivo:
+src/include/SDL3/SDL_stdinc.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_misc.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_guid.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_error.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_rect.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_timer.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+all: Snake_Vr3
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/5=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_gamepad.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_blendmode.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+.PHONY: clean cleandep cleanw cleandepw
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+src/include/SDL3/SDL_hints.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_iostream.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_properties.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+src/include/SDL3/SDL_version.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_locale.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+obj/main.o: src/main.c src/main.c src/include/SDL3/SDL.h src/include/SDL3/SDL_stdinc.h src/include/SDL3/SDL_platform_defines.h src/include/SDL3/SDL_begin_code.h src/include/SDL3/SDL_close_code.h src/include/SDL3/SDL_assert.h src/include/SDL3/SDL_asyncio.h src/include/SDL3/SDL_atomic.h src/include/SDL3/SDL_audio.h src/include/SDL3/SDL_endian.h src/include/SDL3/SDL_error.h src/include/SDL3/SDL_mutex.h src/include/SDL3/SDL_thread.h src/include/SDL3/SDL_properties.h src/include/SDL3/SDL_iostream.h src/include/SDL3/SDL_bits.h src/include/SDL3/SDL_blendmode.h src/include/SDL3/SDL_camera.h src/include/SDL3/SDL_pixels.h src/include/SDL3/SDL_surface.h src/include/SDL3/SDL_rect.h src/include/SDL3/SDL_clipboard.h src/include/SDL3/SDL_cpuinfo.h src/include/SDL3/SDL_dialog.h src/include/SDL3/SDL_video.h src/include/SDL3/SDL_events.h src/include/SDL3/SDL_gamepad.h src/include/SDL3/SDL_guid.h src/include/SDL3/SDL_joystick.h src/include/SDL3/SDL_power.h src/include/SDL3/SDL_sensor.h src/include/SDL3/SDL_keyboard.h src/include/SDL3/SDL_keycode.h src/include/SDL3/SDL_scancode.h src/include/SDL3/SDL_mouse.h src/include/SDL3/SDL_pen.h src/include/SDL3/SDL_touch.h src/include/SDL3/SDL_filesystem.h src/include/SDL3/SDL_gpu.h src/include/SDL3/SDL_haptic.h src/include/SDL3/SDL_hidapi.h src/include/SDL3/SDL_hints.h src/include/SDL3/SDL_init.h src/include/SDL3/SDL_loadso.h src/include/SDL3/SDL_locale.h src/include/SDL3/SDL_log.h src/include/SDL3/SDL_messagebox.h src/include/SDL3/SDL_metal.h src/include/SDL3/SDL_misc.h src/include/SDL3/SDL_platform.h src/include/SDL3/SDL_process.h src/include/SDL3/SDL_render.h src/include/SDL3/SDL_storage.h src/include/SDL3/SDL_system.h src/include/SDL3/SDL_time.h src/include/SDL3/SDL_timer.h src/include/SDL3/SDL_tray.h src/include/SDL3/SDL_version.h src/include/SDL3/SDL_oldnames.h src/include/Snake.h src/include/SDL3/SDL_ttf.h src/include/SDL3_image/SDL_image.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `main'
+#  �ltima modificaci�n 2025-12-20 02:03:48
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_gpu.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_platform.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_loadso.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_filesystem.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_storage.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-20 02:04:49
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_ttf.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:18:13
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_scancode.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_dialog.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Snake.d: src/Snake.c
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `Snake'
+#  �ltima modificaci�n 2025-12-22 13:29:32
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_pen.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_events.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_system.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_assert.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_touch.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_haptic.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_sensor.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+cleanw:
+#  objetivo falso (dependencia de .PHONY).
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 64):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_keycode.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_platform_defines.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_clipboard.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_tray.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+obj/Snake.o: src/Snake.c src/include/SDL3/SDL.h src/include/SDL3/SDL_stdinc.h src/include/SDL3/SDL_platform_defines.h src/include/SDL3/SDL_begin_code.h src/include/SDL3/SDL_close_code.h src/include/SDL3/SDL_assert.h src/include/SDL3/SDL_asyncio.h src/include/SDL3/SDL_atomic.h src/include/SDL3/SDL_audio.h src/include/SDL3/SDL_endian.h src/include/SDL3/SDL_error.h src/include/SDL3/SDL_mutex.h src/include/SDL3/SDL_thread.h src/include/SDL3/SDL_properties.h src/include/SDL3/SDL_iostream.h src/include/SDL3/SDL_bits.h src/include/SDL3/SDL_blendmode.h src/include/SDL3/SDL_camera.h src/include/SDL3/SDL_pixels.h src/include/SDL3/SDL_surface.h src/include/SDL3/SDL_rect.h src/include/SDL3/SDL_clipboard.h src/include/SDL3/SDL_cpuinfo.h src/include/SDL3/SDL_dialog.h src/include/SDL3/SDL_video.h src/include/SDL3/SDL_events.h src/include/SDL3/SDL_gamepad.h src/include/SDL3/SDL_guid.h src/include/SDL3/SDL_joystick.h src/include/SDL3/SDL_power.h src/include/SDL3/SDL_sensor.h src/include/SDL3/SDL_keyboard.h src/include/SDL3/SDL_keycode.h src/include/SDL3/SDL_scancode.h src/include/SDL3/SDL_mouse.h src/include/SDL3/SDL_pen.h src/include/SDL3/SDL_touch.h src/include/SDL3/SDL_filesystem.h src/include/SDL3/SDL_gpu.h src/include/SDL3/SDL_haptic.h src/include/SDL3/SDL_hidapi.h src/include/SDL3/SDL_hints.h src/include/SDL3/SDL_init.h src/include/SDL3/SDL_loadso.h src/include/SDL3/SDL_locale.h src/include/SDL3/SDL_log.h src/include/SDL3/SDL_messagebox.h src/include/SDL3/SDL_metal.h src/include/SDL3/SDL_misc.h src/include/SDL3/SDL_platform.h src/include/SDL3/SDL_process.h src/include/SDL3/SDL_render.h src/include/SDL3/SDL_storage.h src/include/SDL3/SDL_system.h src/include/SDL3/SDL_time.h src/include/SDL3/SDL_timer.h src/include/SDL3/SDL_tray.h src/include/SDL3/SDL_version.h src/include/SDL3/SDL_oldnames.h src/include/SDL3_image/SDL_image.h src/include/SDL3/SDL_ttf.h src/include/Snake.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `Snake'
+#  �ltima modificaci�n 2025-12-20 02:03:48
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# autom�tica/o
+# @ := obj/Snake.o
+# autom�tica/o
+# % := 
+# autom�tica/o
+# * := Snake
+# autom�tica/o
+# + := src/Snake.c src/Snake.c src/include/SDL3/SDL.h src/include/SDL3/SDL_stdinc.h src/include/SDL3/SDL_platform_defines.h src/include/SDL3/SDL_begin_code.h src/include/SDL3/SDL_close_code.h src/include/SDL3/SDL_assert.h src/include/SDL3/SDL_asyncio.h src/include/SDL3/SDL_atomic.h src/include/SDL3/SDL_audio.h src/include/SDL3/SDL_endian.h src/include/SDL3/SDL_error.h src/include/SDL3/SDL_mutex.h src/include/SDL3/SDL_thread.h src/include/SDL3/SDL_properties.h src/include/SDL3/SDL_iostream.h src/include/SDL3/SDL_bits.h src/include/SDL3/SDL_blendmode.h src/include/SDL3/SDL_camera.h src/include/SDL3/SDL_pixels.h src/include/SDL3/SDL_surface.h src/include/SDL3/SDL_rect.h src/include/SDL3/SDL_clipboard.h src/include/SDL3/SDL_cpuinfo.h src/include/SDL3/SDL_dialog.h src/include/SDL3/SDL_video.h src/include/SDL3/SDL_events.h src/include/SDL3/SDL_gamepad.h src/include/SDL3/SDL_guid.h src/include/SDL3/SDL_joystick.h src/include/SDL3/SDL_power.h src/include/SDL3/SDL_sensor.h src/include/SDL3/SDL_keyboard.h src/include/SDL3/SDL_keycode.h src/include/SDL3/SDL_scancode.h src/include/SDL3/SDL_mouse.h src/include/SDL3/SDL_pen.h src/include/SDL3/SDL_touch.h src/include/SDL3/SDL_filesystem.h src/include/SDL3/SDL_gpu.h src/include/SDL3/SDL_haptic.h src/include/SDL3/SDL_hidapi.h src/include/SDL3/SDL_hints.h src/include/SDL3/SDL_init.h src/include/SDL3/SDL_loadso.h src/include/SDL3/SDL_locale.h src/include/SDL3/SDL_log.h src/include/SDL3/SDL_messagebox.h src/include/SDL3/SDL_metal.h src/include/SDL3/SDL_misc.h src/include/SDL3/SDL_platform.h src/include/SDL3/SDL_process.h src/include/SDL3/SDL_render.h src/include/SDL3/SDL_storage.h src/include/SDL3/SDL_system.h src/include/SDL3/SDL_time.h src/include/SDL3/SDL_timer.h src/include/SDL3/SDL_tray.h src/include/SDL3/SDL_version.h src/include/SDL3/SDL_oldnames.h src/include/SDL3_image/SDL_image.h src/include/SDL3/SDL_ttf.h src/include/Snake.h
+# autom�tica/o
+# | := 
+# autom�tica/o
+# < := src/Snake.c
+# autom�tica/o
+# ^ := src/Snake.c src/include/SDL3/SDL.h src/include/SDL3/SDL_stdinc.h src/include/SDL3/SDL_platform_defines.h src/include/SDL3/SDL_begin_code.h src/include/SDL3/SDL_close_code.h src/include/SDL3/SDL_assert.h src/include/SDL3/SDL_asyncio.h src/include/SDL3/SDL_atomic.h src/include/SDL3/SDL_audio.h src/include/SDL3/SDL_endian.h src/include/SDL3/SDL_error.h src/include/SDL3/SDL_mutex.h src/include/SDL3/SDL_thread.h src/include/SDL3/SDL_properties.h src/include/SDL3/SDL_iostream.h src/include/SDL3/SDL_bits.h src/include/SDL3/SDL_blendmode.h src/include/SDL3/SDL_camera.h src/include/SDL3/SDL_pixels.h src/include/SDL3/SDL_surface.h src/include/SDL3/SDL_rect.h src/include/SDL3/SDL_clipboard.h src/include/SDL3/SDL_cpuinfo.h src/include/SDL3/SDL_dialog.h src/include/SDL3/SDL_video.h src/include/SDL3/SDL_events.h src/include/SDL3/SDL_gamepad.h src/include/SDL3/SDL_guid.h src/include/SDL3/SDL_joystick.h src/include/SDL3/SDL_power.h src/include/SDL3/SDL_sensor.h src/include/SDL3/SDL_keyboard.h src/include/SDL3/SDL_keycode.h src/include/SDL3/SDL_scancode.h src/include/SDL3/SDL_mouse.h src/include/SDL3/SDL_pen.h src/include/SDL3/SDL_touch.h src/include/SDL3/SDL_filesystem.h src/include/SDL3/SDL_gpu.h src/include/SDL3/SDL_haptic.h src/include/SDL3/SDL_hidapi.h src/include/SDL3/SDL_hints.h src/include/SDL3/SDL_init.h src/include/SDL3/SDL_loadso.h src/include/SDL3/SDL_locale.h src/include/SDL3/SDL_log.h src/include/SDL3/SDL_messagebox.h src/include/SDL3/SDL_metal.h src/include/SDL3/SDL_misc.h src/include/SDL3/SDL_platform.h src/include/SDL3/SDL_process.h src/include/SDL3/SDL_render.h src/include/SDL3/SDL_storage.h src/include/SDL3/SDL_system.h src/include/SDL3/SDL_time.h src/include/SDL3/SDL_timer.h src/include/SDL3/SDL_tray.h src/include/SDL3/SDL_version.h src/include/SDL3/SDL_oldnames.h src/include/SDL3_image/SDL_image.h src/include/SDL3/SDL_ttf.h src/include/Snake.h
+# autom�tica/o
+# ? := src/Snake.c
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=8/32=25%, Rehash=0, Colisiones=1/15=7%
+#  comandos para ejecutar (de `makefile', linea 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_hidapi.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_keyboard.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_video.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_metal.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/main.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-20 02:03:43
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_cpuinfo.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+main.d: src/main.c
+#  Por omisi�n, MAKEFILES, o -include/sinclude makefile.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  rama del patr�n impl�cita/est�tica: `main'
+#  �ltima modificaci�n 2025-12-22 13:29:32
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+	
+
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+src/include/Snake.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-18 13:20:28
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_asyncio.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_close_code.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_messagebox.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+cleandep:
+#  objetivo falso (dependencia de .PHONY).
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 58):
+	$(RM) $(DEP)
+	
+
+cleandepw:
+#  objetivo falso (dependencia de .PHONY).
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 69):
+	$(DEL) $(DEP)
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_log.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+clean:
+#  objetivo falso (dependencia de .PHONY).
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 53):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_time.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_endian.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_bits.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/Snake.c:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-20 02:06:30
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_pixels.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_camera.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_surface.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_mouse.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_atomic.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_audio.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_joystick.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_power.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Snake_Vr3: obj/main.o obj/Snake.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  Necesita ser actualizado (la opci�n -q est� activa).
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/5=0%
+#  comandos para ejecutar (de `makefile', linea 36):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+	
+
+# No es un objetivo:
+src/include/SDL3/SDL_oldnames.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_mutex.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3_image/SDL_image.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 23:04:45
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_init.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_begin_code.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_thread.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_render.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+src/include/SDL3/SDL_process.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2025-12-11 22:14:15
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# esta 
+d�sticas de la tabla de hash de los archivos:
+# Carga=78/1024=8%, Rehash=0, Colisiones=6/238=3%
+# Rutas de b�squeda VPATH
+
+# No hay rutas de b�squeda `vpath'.
+
+# No hay ruta de b�squeda general (variable `VPATH').
+
+# # of strings in strcache: 3
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4072 / max = 4072 / min = 4072 / avg = 4072
+
+# Se termina la base de datos de Make en Mon Dec 22 13:29:33 2025
+
+ 

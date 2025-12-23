@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: se ingresa al directorio `d:/Snake_Vr3_Final'
+ 
+make.exe: se sale del directorio `d:/Snake_Vr3_Final'
+make.exe: se ingresa al directorio `d:/Snake_Vr3_Final'
+gcc -std=c11 -Wall -Isrc/include -o obj/main.o -c src/main.c
+gcc -std=c11 -Wall -Isrc/include -o obj/Snake.o -c src/Snake.c
+gcc -std=c11 -Wall -Isrc/include -o Snake_Vr3 obj/main.o obj/Snake.o -Llib -lSDL3 -lSDL3_ttf -lSDL3_image 
+make.exe: se sale del directorio `d:/Snake_Vr3_Final'
+ 
