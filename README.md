@@ -82,7 +82,6 @@ Ce projet propose une expérience de jeu enrichie avec :
 
 - 📊 **Highscore persistant** : Sauvegarde automatique
 - 🥇 **Top 10** : Tableau des meilleurs scores
-- 🎯 **Système de combo** : Score multiplié pour enchaînements rapides
 - 📈 **Progression par niveau** : Barre de progression visuelle
 - 💎 **Différent types de nourriture** :
   - 🍎 Normale : +10 points
@@ -149,8 +148,8 @@ Snake_Game_Ultimate/
 │   ├── snake_head.png           # Tête du serpent
 │   ├── snake_body.png           # Corps du serpent
 │   ├── food.png                 # Nourriture normale
-│   ├── golden_food.png          # Nourriture dorée
-│   └── obstacle.png             # Obstacle
+│         
+│  
 │
 └── 📁 bin/                       # Exécutables compilés
     └── Snake_Game.exe           # Jeu Windows
