@@ -304,13 +304,11 @@ Dans `Snake.h` :
 - **Zakaria Zahraoui**
 - **Ismael Demnati**
 
-### 👨‍🏫 Encadrement
-- **Professeur : Pr Rahmoune**
 
 ### 🎓 Institution
 - Projet académique de structures de données en C
-- Université : [Votre Université]
-- Année : 2024-2025
+- Université : ENSAO
+- Année : 2025-2026
 
 ### 🎨 Ressources
 - Bibliothèque SDL3 : [libsdl.org](https://www.libsdl.org/)
@@ -331,14 +329,11 @@ Supervisé par Pr Rahmoune
 
 ---
 
-## 🔮 Fonctionnalités Futures
-
 ## 🌟 Remerciements
 
 Un grand merci à :
 - 🙏 **Pr Rahmoune** pour son encadrement
 - 💻 La communauté **SDL** pour leurs excellentes bibliothèques
-- 🎮 Tous les testeurs et joueurs du projet
 - 📚 Les ressources open-source qui ont inspiré ce projet
 
 ---
