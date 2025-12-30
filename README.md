@@ -1,4 +1,4 @@
-# 🐍 Snake Game Ultimate - Version Gaming Complète
+# 🐍 Snake Game By GINF3
 
 ![Snake Game](https://img.shields.io/badge/Version-2.0-brightgreen)
 ![SDL3](https://img.shields.io/badge/SDL-3.0-blue)
